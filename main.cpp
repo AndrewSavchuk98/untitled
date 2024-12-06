@@ -20,7 +20,6 @@ void showProgress(const bool &flag) {
         cout << "wait... "<<  i << endl;
         this_thread::sleep_for(chrono::milliseconds(500));
     }
-    cout << "..."<<endl;
 }
 
 int main() {
