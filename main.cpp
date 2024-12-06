@@ -11,6 +11,7 @@ using namespace std;
 string doSomething(bool &flag) {
     this_thread::sleep_for(chrono::seconds(4));
     string user = "user";
+    cout << user << endl;
     flag = false;
     return user;
 }
@@ -25,7 +26,7 @@ void showProgress(const bool &flag) {
 int main() {
     string user;
     bool flag = true;
-
+    std::cout << "Hello World!\n";
     thread t1([&] {
         user = doSomething(flag);
     });
