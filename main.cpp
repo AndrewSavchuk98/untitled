@@ -22,8 +22,8 @@ void showProgress(const bool &flag) {
     }
 }
 
-int minus(int a, int b) {
-    return a - b;
+int helpMe(int a, int b) {
+    return a * b;
 }
 
 int sum(int a, int b) {
