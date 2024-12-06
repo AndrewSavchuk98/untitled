@@ -22,6 +22,10 @@ void showProgress(const bool &flag) {
     }
 }
 
+int minus(int a, int b) {
+    return a - b;
+}
+
 int main() {
     string user;
     bool flag = true;
