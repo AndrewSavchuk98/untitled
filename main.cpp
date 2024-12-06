@@ -22,6 +22,10 @@ void showProgress(const bool &flag) {
     }
 }
 
+int sum(int a, int b) {
+    return a + b;
+}
+
 int main() {
     string user;
     bool flag = true;
