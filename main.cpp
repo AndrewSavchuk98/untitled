@@ -11,7 +11,6 @@ using namespace std;
 string doSomething(bool &flag) {
     this_thread::sleep_for(chrono::seconds(4));
     string user = "user";
-    cout << user << endl;
     flag = false;
     return user;
 }
