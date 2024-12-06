@@ -6,7 +6,7 @@ using namespace std;
 
 // THREAD  - ПОТОКИ
 
-
+//test
 
 string doSomething(bool &flag) {
     this_thread::sleep_for(chrono::seconds(4));
